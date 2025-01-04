@@ -1,0 +1,90 @@
+body {
+  font-family: Inter, sans-serif;
+  color: black;
+  margin: 0px;
+}
+
+header {
+  background: #F55A5A;
+  display: flex;
+  align-items: center;
+  height: 55px;
+  justify-content: center;
+  color: white;
+}
+
+.container {
+  margin: 45px 40px;
+}
+
+.globe-logo {
+  width: 24px;
+  margin-right: 7px;
+}
+
+header > h1 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+article.journal-entry {
+  display: flex;
+  margin-bottom: 36px;
+}
+
+.main-image-container {
+  width: 125px;
+  height: 168px;
+  overflow: hidden;
+  border-radius: 5px;
+  flex-shrink: 0;
+  margin-right: 19px;
+}
+
+.main-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info-container {
+  width: 470px;
+  height: 168px;
+}
+
+.marker {
+  width: 7px;
+  margin-right: 4px;
+}
+
+.info-container span.country {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  margin-right: 12px;
+}
+
+.info-container a {
+  color: #2B283A;
+  font-size: 0.7rem;
+}
+
+.info-container a:visited {
+  color: #918E9B;
+}
+
+.info-container h2.entry-title {
+  margin-top: 7px;
+  margin-bottom: 17px;
+}
+
+.trip-dates{
+  font-weight: bold;
+}
+
+.entry-text{
+  font-size: 0.8rem;
+  line-height: 1.5;
+  overflow: hidden;
+  display: block;
+  line-clamp: 3;
+}

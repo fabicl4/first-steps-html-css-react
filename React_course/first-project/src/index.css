@@ -1,0 +1,81 @@
+body {
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    color: white;
+    background-color: #282D35;
+}
+
+header {
+    height: 90px;
+    background-color: #21222A;
+    padding: 30px 25px;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    height: 100%;
+}
+
+.nav-logo
+{
+    margin-right: 7px;
+    width: 40px;
+   
+}
+
+.nav-title {
+    color: #61DAFB;
+    margin-left: 7px;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+main {
+    padding: 60px 30px;
+    /*
+    NOTE: I don't have the react logo cut in half image. :(
+    
+    background-image: url("./assets/react.svg");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 65%;
+    */
+}
+
+main > h1 {
+    font-weight: 700;
+    margin: 0px;
+    font-size: 2.4rem;
+}
+
+.facts-list-item::marker {
+    color: #61DAFB;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.facts-list {
+    margin-top: 46px;
+    max-width: 400px;
+}
+
+.facts-list-item {
+    padding-block: 10px;
+    line-height: 19px;
+}
+
+/*
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list-item{
+    margin-left: 10px;
+    font-size: 1.1rem;
+}
+
+*/
